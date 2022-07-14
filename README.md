@@ -3,7 +3,7 @@ This modifies the [Highcharts Column Chart](https://github.com/teochewthunder/hs
 
 ## Changes
 - The dataset is massaged into an array of objects, each with the property `name` and `y`, where `name` is the name of the player and `y` is the statistic value. 
-- Since this is a pie, it is far more readable if data is srted by the `y` value.
+- Since this is a pie, it is far more readable if data is sorted by the `y` value.
 
 ## Requirements
 - Function renaming and text changes.
