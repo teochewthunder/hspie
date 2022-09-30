@@ -99,17 +99,16 @@
 		            chart: 
 		            {
 		                type: "pie",
-
 		            },
 		            title: 
 		            {
 		                text: "Liverpool FC",
-		                style: { color: "rgba(200, 0, 0, 1); font-size: 1.5em; font-weight: bold" }
+		                style: { "color": "rgba(200, 0, 0, 1)", "font-size": "2.5em", "font-weight": "bold" }
 		            },
 		            subtitle: 
 		            {
 		                text: "Football statistics by TeochewThunder",
-		                style: { color: "rgba(200, 0, 0, 0.8); font-size: 0.8em;" }
+		                style: { "color": "rgba(200, 0, 0, 0.8)", "font-size": "0.8em" }
 		            },
 				    tooltip: 
 				    {
@@ -127,7 +126,7 @@
 				            {
 				            	color: "rgba(255, 200, 0, 1)",
 				                enabled: true,
-				                format: "<b>{point.name}</b><br>{point.y} " + stat,
+				                format: "{point.name}<br>{point.y} " + stat,
 				                distance: -50,
 				                filter: 
 				                {
@@ -143,8 +142,6 @@
 				    	{
 			                name: season + " " + stat,
 			                data: values,
-			                borderRadius: 5,
-			                borderColor: "rgba(255, 255, 255, 1)",
 			                borderWidth: 3
 			            }
 		            ]
